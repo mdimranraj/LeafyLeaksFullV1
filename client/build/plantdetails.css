@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/earlyaccess/khyay.css);
+
+.plant-detail-container{
+    width: 85vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    font-family: 'Khyay', sans-serif;
+    /* font-family: 'Cera Pro'; */
+    font-style: normal;
+    line-height: 46px;
+}
+.plant-detail-box-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box-1-title{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto 50px 20px;
+}
+.box-1-title table{
+    text-align: left;
+    padding: 50px;
+}
+.box-1-title table td{
+    padding: 0 20px;
+}
+
+.plant-detail-box-2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px 0 100px;
+}
+.box-2-part1, .box-2-part2, .box-2-part3{
+    padding: 30px;
+    text-align: left;
+}
+
